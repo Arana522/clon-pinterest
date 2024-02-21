@@ -1,0 +1,216 @@
+.navbar{
+       padding-top: 8px;
+       padding-right: 15px;
+       margin-left: 17px;
+}
+.navbar-menu{
+    padding-left: 7px;
+    font-size: 16px;
+    color: black !important;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+.caja{
+    margin-top: 8px;
+    border: 1px solid rgb(216, 213, 213);
+    background-color: rgb(216, 213, 213);
+    height: 50px;
+    padding-top: 10px;
+    width: 910px;
+    border-radius: 17px;
+    
+}
+.caja input{
+    width: 300px;
+    border: none;
+    float: left;
+    background-color: rgb(216, 213, 213);
+}
+.caja button{
+    border: none;
+    float: right;
+}
+.buttons{
+    margin-left: 60px;
+}
+.button1{
+    padding-top: 9px;
+    background-color: rgb(216, 213, 213);
+    width: 120px;
+    height: 45px;
+    text-align: center;
+    margin-right: 16px;
+    margin-left: 5px;
+    margin-bottom: 17px;
+    border-radius: 19px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.button2{
+    background-color: red;
+    padding-top: 9px;
+    width: 112px;
+    height: 45px;
+    margin-right: 0 13px;
+    text-align: center;
+    margin-bottom: 17px;
+    border-radius: 19px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.titulo{
+    height: 125px;
+    text-align: center;
+    padding-top: 48px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+
+}
+.columns{
+    position: relative;
+    width: 1150px;
+    margin-left: 168px;
+}
+.imagen{
+    border-radius: 20px;
+    filter: brightness(60%);
+}
+.columns p{
+    position: absolute;
+    top: 160px;
+    font-size: 28px;
+    margin-left: 30px;
+    color: white;
+}
+.columns h2{
+    padding-top: 6px;
+    text-align: center;
+    border-radius: 18px;
+    height: 40px;
+    width: 73px;
+    margin-left: 30px;
+    position: absolute;
+    top: 215px;
+    background-color: white;
+    color: black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.Descubre{
+    text-align: center;
+    margin-top: 30px;
+}
+.colum{
+    width: 190px;
+}
+.foto{
+    border-radius: 20px;
+    filter: brightness(60%);
+}
+.columns.is-mobile{
+    margin-top: 18px;
+    padding-left: 60px;
+    padding-right: 60px;
+    position: relative;
+    
+}
+.colum1{
+    margin-right: 8px;
+}
+.colum2{
+    margin-right: 8px;
+}
+.colum3{
+    margin-right: 8px;
+}
+.colum4{
+    margin-right: 8px;
+}
+.colum5{
+    margin-right: 8px;
+}
+.columns.is-mobile h2{
+    position: absolute;
+    font-size: 18px;
+    background-color: transparent;
+    color: rgb(14, 13, 13);
+    top: 42px;
+    color: white;
+    padding-left: 33px;
+}
+.tex{
+    background-color: rgb(196, 195, 195);
+    width: 60px;
+    height: 30px;
+    border-radius: 18px;
+    text-align: center;
+    margin-left: 725px;
+    padding-top: 4px;
+}
+.explorar{
+    text-align: center;
+    margin-top: 50px;
+}
+.columnn{
+    margin-left: 18px;
+}
+.columnn img{
+    margin-top: 20px;
+    width: 240px;     
+    height: 425px;   
+    border-radius: 20px;
+}
+.img1{
+    margin-right: 10px;
+    padding-bottom: 15px;
+}
+.img2{
+    margin-right: 10px;
+    
+}
+.img3{
+    padding-bottom: 15px;
+}
+.img4{
+    padding-bottom: 15px;
+}
+.img5{
+    
+}
+.img6{
+    padding-bottom: 15px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+.container{
+    width: 100%;
+    display: flex; 
+    max-width: 1100px;
+    display: none;
+}
+.card{
+    padding-left: 0 60px;
+    margin-left: 0 30px;
+    margin-right: 5px;
+    width: 100%;
+    margin: 3px;
+    border-radius: 18px;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+    cursor: default;
+    transition: all 400ms ease;
+}
+card:hover{
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+}
+.card .contenido{
+    padding: 15px;
+    text-align: left;
+}
